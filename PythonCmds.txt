@@ -1,0 +1,12 @@
+Virtual Enviroment
+	
+pip install virtualenv
+python -m virtualenv venv
+.\venv\Scripts\activate
+deactivate
+
+Requirements
+pip install pipreqs
+pip --force PROJECTPATH
+pip freeze > requirements.txt
+pip install -r requirements.txt
